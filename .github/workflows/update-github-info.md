@@ -39,8 +39,13 @@ Use web-fetch to read:
 
 - https://github.blog/latest/
 - https://github.blog/changelog/
+- https://awesome-copilot.github.com/workflows/
 
-Identify useful, recent GitHub updates that fit Mona's practical editorial angle. Update only `site/content/github-info.md` with concise summaries, and cite the GitHub Blog or GitHub Changelog source for each update. Preserve the existing structure and avoid speculative or duplicate content.
+Also add Awesome Copilot workflows to the sources:
+
+- https://awesome-copilot.github.com/workflows/
+
+Identify useful, recent GitHub updates that fit Mona's practical editorial angle. Update only `site/content/github-info.md` with concise summaries, and cite the GitHub Blog, GitHub Changelog, or Awesome Copilot workflows source for each update. Preserve the existing structure and avoid speculative or duplicate content.
 
 When there is a supported update, use the configured `create-pull-request` safe output to open a draft pull request for Mona to review. Include a concise title and body that summarize the sources and changes. Never write directly to `main`.
 
